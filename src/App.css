@@ -1,0 +1,27 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.error {
+  border: red 1px solid;
+  outline: red 1px solid;
+}
+
+.error:focus{
+  border: red 1px solid;
+  outline: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
